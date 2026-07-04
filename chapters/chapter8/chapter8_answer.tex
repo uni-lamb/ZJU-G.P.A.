@@ -363,3 +363,108 @@
     所以：
     \[v = \dfrac{1}{\mu_0 \sigma\delta}\]
 \end{solution}
+
+\begin{solution}[Method of Images 1]
+    A point charge \(q\) is placed between two grounded infinite parallel conducting planes, not symmetrically positioned. Find the force on the charge, expressed as an infinite series.
+\tcbrule
+
+    设左板位于 \(x=0\)，右板位于 \(x=a\) ，电荷 \(q\) 位于 \(x=d\neq a/2\) 位置。
+
+    无限大接地平板，不断的做镜面对称即可，主要考察对镜像电荷有效域的理解（镜像电荷和有效域位于成像的那块板两侧）。
+
+    第一步先对左板成像得到 \((-q,-d)\) ，像再对右板成像得到 \((q,2a+d)\) ，再对左板成像……第一步先对右板成像同样有一个无穷队列，转化成到源电荷的距离即：
+    \[
+        \begin{align}
+        &\{(-,l,2d),(+,r,2a),(-,l,2a+2d),(+,r,4a),\dots\},\\
+        &\{(-,r,2a-2d),(+,l,2a),(-,r,4a-2d),(+,l,4a),\dots\}
+        \end{align}
+    \]
+    其中 \(+,-\) 表示电荷类型， \(l,r\) 表示位于电荷左侧/右侧，第三项距离取绝对值。
+
+    适当归类，发现两个集合的偶数项相互抵消，得到最终受力（向右为正）：
+    \[
+        F(d;a)=\sum_{k=0}^\infty \frac{q^2}{4\pi \epsilon_0} [\frac{1}{(2ka+2a-2d)^2}-\frac{1}{(2ka+2d)^2}]
+    \]
+\end{solution}
+
+\begin{solution}[Method of Images 2]
+    A neutral conducting sphere ( \(radius = R\) ) is placed in the field of an external point charge \(q\). Find the induced surface charge distribution on the sphere in spherical coordinates.
+\tcbrule
+
+    若导体球接地，其模型在讲义里已经展示；考察点是电中性的处理。
+    
+    首先理解，由于静电感应产生的 \((-\frac{R}{d} q,\frac{R^2}{d})\) 镜像电荷本质是球壳表面的一组电荷分布 \(\rho_1 (r,\theta)\) 在球外空间的等效，根据高斯定理可以想见，这个电荷分布的总电荷量就是 \(-\frac{R}{d} q\) 。因此电中性导致多余的电荷总量为 \(\frac{R}{d} q\) ，同样在球壳上形成分布 \(\rho_2 (r,\theta)\) 。
+
+    这些剩余电荷依照能量最低自然分布，显然是均匀的， \(\rho_2 = \frac{Rq}{4\pi d R^2}\) 。而 \(\rho_1\) 可以基于球壳内外的小高斯盒求出：
+
+    假设在球壳表面球坐标 \((R,\theta)\) 的位置取一块面积微元 \(\vec{dS}=dS \vec{n}\) ，其中 \(\vec{n}\) 是沿球壳径向向外的单位法向量
+    
+    根据高斯定理，取一个厚度无穷小，底面面积 \(dS\) 的扁圆柱盒，这块微元上的电荷量由内外区域的电场强度共同决定（显然金属球内部 \(E_{in}=0\) ）
+    \[
+        \begin{align}
+            (dS \rho_1)/&\epsilon_0 = \vec{dS}\cdot (\vec{E}_{out}-\vec{E}_{in}) \implies \rho_1 = \epsilon_0 E_{out,n} \\
+            E_{out,n}&=-\frac{q}{4\pi \epsilon_0}[\frac{R}{d}\frac{R-\frac{R^2}{d} cos\theta}{(R^2+(\frac{R^2}{d})^2-2(R^3/d) cos\theta)^{3/2}}+\frac{d cos\theta - R}{(R^2+d^2-2Rd cos\theta)^{3/2}}]\\
+            &=-\frac{q}{4\pi \epsilon_0 R}\frac{d^2-R^2}{(d^2+R^2-2Rdcos\theta)^{3/2}}
+        \end{align}
+    \]
+    或许用一个高斯定理求出 \(\rho_1 + \rho_2\) 更符合物理实际一点，但便于理解电中性的处理不小心拆开了。
+\end{solution}
+
+\begin{solution}[Method of Images 3]
+    Continuing from the previous example 2, show that the total force acting on the conducting sphere is exactly the same as the force on the image charge constructed by the method of images.
+\tcbrule
+
+    最简单的方法：力的作用是相互的，所以带电球壳的受力和球外点电荷的受力等大反向，以相互吸引为正：
+    \[
+        F=\frac{R^3 q^2 (2d^2-R^2)}{4\pi\epsilon_0 d^3 (d^2-R^2)^2}
+    \]
+
+    也可以积分处理。均匀电荷分布部分 \(\rho_2\) 很容易积分此处略。
+    
+    再证明 \(\rho_1\) 部分即可。根据旋转对称性我们知道整体手里确实是沿着连线方向的：（ \(dS=2\pi R^2 sin \theta d\theta\) ）
+    \[
+        \begin{align}
+        F&=-\int_{\theta=0}^\pi \frac{\rho_1 q}{4\pi \epsilon_0}\frac{d-R cos \theta}{(R^2+d^2-2Rd cos\theta)^{3/2}}dS\\
+        &=\frac{q^2 (d^2-R^2)}{8\pi \epsilon_0}\int_0^\pi \frac{d-Rcos\theta}{(d^2+R^2-2dRcos\theta)^3} d (-Rcos\theta)
+        \end{align}
+    \]
+    敲 \LaTeX 好累，大致可看出是多项式可拆解我就不继续了……
+\end{solution}
+
+\begin{solution}[Method of Images 4]
+    A neutral conducting sphere ( \(radius = R\) ) is placed in the field of an electric dipole located outside the sphere. Give the complete set of image charges required to satisfy the boundary conditions. Suppose the dipole points towards the sphere.
+\tcbrule
+
+    把电偶极子 \(\vec{p}\) 拆成距离球心 \(d-x/2\) 的点电荷 \(+q\) 和距离球心 \(d+x/2\) 的点电荷 \(-q\) （ \(p=qx,x\ll d,R\) ），和前面几问又变成相似的问题了。
+
+    像电荷共三个， \((-\frac{R}{d-x/2}q,R^2/{d-x/2}),(\frac{R}{d+x/2}q,R^2/{d+x/2}),(\frac{Rx}{d^2}q,0)\) 
+
+    然后结果处理成含 \(p\) 的式子而不是带 \(q,x\) 的，所以把前两个电荷近似理解为一个偶极子加一个点电荷（点电荷是因为两个像电荷不等大），具体来说是一个位于 \(\frac{R^2}{d}\) 位置的，电偶极矩 \(p'=\frac{R}{d} q \cdot \frac{R^2}{d^2}x=\frac{R^3}{d^3}p\) 方向沿连线向外的偶极子，以及等效点电荷 \((-\frac{Rx}{d^2}q,\frac{R^2}{d})\) 。和力学里的二体问题转变成约化质量问题差不多吧。
+
+    球心处点电荷 \(\frac{Rp}{d^2}\) ，距球心 \(\frac{R^2}{d}\) 位置点电荷 \(-\frac{R}{d^2}p\) 和电偶极子 \(\frac{R^3}{d^3}p\)
+\end{solution}
+
+\begin{solution}[Method of Images 5]
+    Analyze the shape of the equipotential surfaces produced by two infinite parallel line charges with uniform linear charge densities \(+\lambda\) and \(-\lambda\).
+\tcbrule
+
+    无限长均匀带电直导线电场 \(E(\vec{r})=\frac{\lambda}{2\pi \epsilon_0 r}\hat{r}\) ，电势 \(\phi(r)=C-\frac{\lambda}{2\pi \epsilon_0}ln r\)
+
+    一正一负叠加，空间电势 \(\phi=C+\frac{\lambda}{2\pi \epsilon_0}ln\frac{r_-}{r_+}\) 等势面是到两根电线的距离成恒定比值的点，也就是阿氏圆。阿氏圆参数可以自行推导。
+\end{solution}
+
+\begin{solution}[Method of Images 6]
+    Continuing from the previous example, two infinite conducting cylindrical wires of equal radius \(R\) and center-to-center separation \(d>2R\) carry opposite linear charge densities \(+\lambda\) and \(-\lambda\). Determine the capacitance per unit length between them.
+\tcbrule
+
+    两根圆柱表面分别带电势 \(\phi_+,\phi_-\) ，则单位长电容 \(C_0=\frac{\lambda}{\phi_+-\phi_-}\) 。
+    
+    关键在于想到这两个圆柱面是两个等势面，结合上一题，说明两个圆柱面上的电荷分布在柱面外的等效分布是两根带电量 \(+\lambda,-\lambda\) 的电线。设它们位于柱心向内 \(x<R\) ，彼此之间距离 \(d-2x\) ，利用阿氏圆比例性质：
+    \[
+        R^2 = x \times (d-x) \implies x = d/2 - \sqrt{d^2/4-R^2}
+    \]
+    根据上题， \(\Delta \phi = \frac{\lambda}{\pi \epsilon_0}ln \frac{R}{x}\) ，因此
+    \[
+        C_0=\frac{\pi\epsilon_0}{ln\frac{R}{d/2-\sqrt{d^2/4-R^2}}}
+    \]
+\end{solution}

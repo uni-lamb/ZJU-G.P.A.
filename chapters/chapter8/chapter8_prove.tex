@@ -66,6 +66,67 @@
     \[E\propto\dfrac{1}{R}\quad\sigma\propto\dfrac{1}{R}\]
 \end{prove}
 
+\begin{prove}[电像法的适用条件 \label{prove:uniqueness}]
+    我们从用到的数学工具开始，建立直观的理解。
+    
+    静电场问题的核心只有一个，那就是泊松方程；要素也就两个，即电荷分布 $\rho$ 和电势分布 $\phi$ （及其梯度 $\mathbf{E}$ ，对于静电场这种有势的，场强算是个中间量），电荷分布通过库仑定律导出电势分布，电势分布通过高斯定理导出电荷分布。
+
+    \begin{law}[\itr{Possion's Equation}{泊松方程}]
+        \begin{align}
+            \nabla \cdot \mathbf{E} &= \frac{\rho}{\varepsilon_0} \\
+            \nabla \phi &= -\mathbf{E} \\
+            \Rightarrow \nabla^2 \phi &= -\frac{\rho}{\varepsilon_0}
+        \end{align}
+    \end{law}
+
+    其中 $\nabla^2=\dfrac{\partial^2}{\partial x^2}+\dfrac{\partial^2}{\partial y^2}+\dfrac{\partial^2}{\partial z^2}$ 是拉普拉斯算子。硬解泊松方程是非常麻烦的，尤其是当边界条件复杂时。
+
+    好在我们有电像法，这允许我们"应试化"地将具有对称性的问题转化为套模型的形式，背诵起来也不难。
+    
+    电像法的实质是：在求解区域外用假想的"像电荷"替代导体表面的感应电荷或极化电荷，使得原边界条件得到满足。此时区域内的电荷分布虽被修改，但由唯一性定理保证区域内解的正确性。这个方法由静电场唯一性定理保证了正确性：
+
+    \begin{law}[\itr{Uniqueness Theorem}{唯一性定理}]
+        若已知空间 $\mathcal{V}$ 内的电荷分布 $\rho(\mathbf{r})$，则在给定以下任一边界条件的情况下，空间 $\mathcal{V}$ 内泊松方程的解 $\phi(\mathbf{r})$ 是唯一的：
+        \begin{itemize}
+            \item \textbf{狄利克雷边界条件（Dirichlet）：} 给定边界上的电势分布 $\phi(\mathbf{r})|_{\partial \mathcal{V}}$
+            \item \textbf{诺伊曼边界条件（Neumann）：} 给定边界上电势的法向导数 $\left.\dfrac{\partial \phi}{\partial n}\right|_{\partial \mathcal{V}}$（此时解可相差一个无关紧要的常数）
+        \end{itemize}
+    \end{law}
+
+    简要证明如下（仅讨论均匀介质情形）：
+
+    假设存在两个不同的解，设为 $\phi_1$ 和 $\phi_2$，令其差为
+    \[\psi(\mathbf{r}) = \phi_1(\mathbf{r}) - \phi_2(\mathbf{r})\]
+    则 $\psi$ 在 $\mathcal{V}$ 内满足拉普拉斯方程：
+    \[\nabla^2 \psi = 0\]
+    且在边界 $\partial\mathcal{V}$ 上满足齐次边界条件：
+    \begin{itemize}
+        \item 若原问题为狄利克雷条件：$\psi|_{\partial\mathcal{V}} = 0$
+        \item 若原问题为诺伊曼条件：$\left.\dfrac{\partial\psi}{\partial n}\right|_{\partial\mathcal{V}} = 0$
+    \end{itemize}
+
+    构造面积分
+    \[\oint_{\partial\mathcal{V}} \psi\,\nabla\psi \cdot d\mathbf{S}\]
+    由边界条件，在边界上被积函数为零，故此积分为零。
+
+    另一方面，利用高斯定理将其化为体积分：
+    \[
+    \oint_{\partial\mathcal{V}} \psi\,\nabla\psi \cdot d\mathbf{S} 
+    = \int_{\mathcal{V}} \nabla\cdot(\psi\nabla\psi)\,dV 
+    = \int_{\mathcal{V}} \Bigl[(\nabla\psi)^2 + \psi\,\underbrace{\nabla^2\psi}_{=0}\Bigr]\,dV
+    = \int_{\mathcal{V}} (\nabla\psi)^2\,dV \geq 0
+    \]
+    因此被积函数 $(\nabla\psi)^2$ 必须在 $\mathcal{V}$ 内处处为零，即
+    \[\nabla\psi \equiv 0 \quad\Rightarrow\quad \psi = \mathrm{const}\]
+
+    \begin{itemize}
+        \item 对狄利克雷条件：$\psi|_{\partial\mathcal{V}}=0$，故常数必为零，$\phi_1\equiv\phi_2$，解唯一。
+        \item 对诺伊曼条件：$\psi$ 可为任意常数，但这仅反映电势零点的选取，其梯度（电场）是唯一的，不影响物理结果。
+    \end{itemize}
+
+    综上，唯一性定理得证。电像法之所以有效，正是因为我们在求解区域外放置像电荷后，区域内电荷分布不变、边界条件得以满足——由唯一性定理，该解即原问题的唯一解。
+\end{prove}
+
 \begin{prove}[一阶电路的结论]
     \begin{singlefigure}[简单一阶RC电路]{chapter8_RC}[0.6]
     \end{singlefigure}
