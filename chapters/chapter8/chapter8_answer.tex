@@ -373,12 +373,10 @@
     无限大接地平板，不断的做镜面对称即可，主要考察对镜像电荷有效域的理解（镜像电荷和有效域位于成像的那块板两侧）。
 
     第一步先对左板成像得到 \((-q,-d)\) ，像再对右板成像得到 \((q,2a+d)\) ，再对左板成像……第一步先对右板成像同样有一个无穷队列，转化成到源电荷的距离即：
-    \[
-        \begin{align}
-        &\{(-,l,2d),(+,r,2a),(-,l,2a+2d),(+,r,4a),\dots\},\\
-        &\{(-,r,2a-2d),(+,l,2a),(-,r,4a-2d),(+,l,4a),\dots\}
-        \end{align}
-    \]
+    \begin{align}
+    &\{(-,l,2d),(+,r,2a),(-,l,2a+2d),(+,r,4a),\dots\},\\
+    &\{(-,r,2a-2d),(+,l,2a),(-,r,4a-2d),(+,l,4a),\dots\}
+    \end{align}
     其中 \(+,-\) 表示电荷类型， \(l,r\) 表示位于电荷左侧/右侧，第三项距离取绝对值。
 
     适当归类，发现两个集合的偶数项相互抵消，得到最终受力（向右为正）：
@@ -400,13 +398,11 @@
     假设在球壳表面球坐标 \((R,\theta)\) 的位置取一块面积微元 \(\vec{dS}=dS \vec{n}\) ，其中 \(\vec{n}\) 是沿球壳径向向外的单位法向量
     
     根据高斯定理，取一个厚度无穷小，底面面积 \(dS\) 的扁圆柱盒，这块微元上的电荷量由内外区域的电场强度共同决定（显然金属球内部 \(E_{in}=0\) ）
-    \[
-        \begin{align}
-            (dS \rho_1)/&\epsilon_0 = \vec{dS}\cdot (\vec{E}_{out}-\vec{E}_{in}) \implies \rho_1 = \epsilon_0 E_{out,n} \\
-            E_{out,n}&=-\frac{q}{4\pi \epsilon_0}[\frac{R}{d}\frac{R-\frac{R^2}{d} cos\theta}{(R^2+(\frac{R^2}{d})^2-2(R^3/d) cos\theta)^{3/2}}+\frac{d cos\theta - R}{(R^2+d^2-2Rd cos\theta)^{3/2}}]\\
-            &=-\frac{q}{4\pi \epsilon_0 R}\frac{d^2-R^2}{(d^2+R^2-2Rdcos\theta)^{3/2}}
-        \end{align}
-    \]
+    \begin{align}
+        (dS \rho_1)/&\epsilon_0 = \vec{dS}\cdot (\vec{E}_{out}-\vec{E}_{in}) \implies \rho_1 = \epsilon_0 E_{out,n} \\
+        E_{out,n}&=-\frac{q}{4\pi \epsilon_0}[\frac{R}{d}\frac{R-\frac{R^2}{d} cos\theta}{(R^2+(\frac{R^2}{d})^2-2(R^3/d) cos\theta)^{3/2}}+\frac{d cos\theta - R}{(R^2+d^2-2Rd cos\theta)^{3/2}}]\\
+        &=-\frac{q}{4\pi \epsilon_0 R}\frac{d^2-R^2}{(d^2+R^2-2Rdcos\theta)^{3/2}}
+    \end{align}
     或许用一个高斯定理求出 \(\rho_1 + \rho_2\) 更符合物理实际一点，但便于理解电中性的处理不小心拆开了。
 \end{solution}
 
@@ -422,12 +418,10 @@
     也可以积分处理。均匀电荷分布部分 \(\rho_2\) 很容易积分此处略。
     
     再证明 \(\rho_1\) 部分即可。根据旋转对称性我们知道整体手里确实是沿着连线方向的：（ \(dS=2\pi R^2 sin \theta d\theta\) ）
-    \[
-        \begin{align}
-        F&=-\int_{\theta=0}^\pi \frac{\rho_1 q}{4\pi \epsilon_0}\frac{d-R cos \theta}{(R^2+d^2-2Rd cos\theta)^{3/2}}dS\\
-        &=\frac{q^2 (d^2-R^2)}{8\pi \epsilon_0}\int_0^\pi \frac{d-Rcos\theta}{(d^2+R^2-2dRcos\theta)^3} d (-Rcos\theta)
-        \end{align}
-    \]
+    \begin{align}
+    F&=-\int_{\theta=0}^\pi \frac{\rho_1 q}{4\pi \epsilon_0}\frac{d-R cos \theta}{(R^2+d^2-2Rd cos\theta)^{3/2}}dS\\
+    &=\frac{q^2 (d^2-R^2)}{8\pi \epsilon_0}\int_0^\pi \frac{d-Rcos\theta}{(d^2+R^2-2dRcos\theta)^3} d (-Rcos\theta)
+    \end{align}
     敲 \LaTeX 好累，大致可看出是多项式可拆解我就不继续了……
 \end{solution}
 
