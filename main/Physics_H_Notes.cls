@@ -34,8 +34,9 @@
 
 %-------------------------------------------------------------
 
-\setmainfont{Times New Roman}
+%\setmainfont{Times New Roman}
 %对于没有这个字体的机器，可以注释本行
+\setmainfont{TeX Gyre Termes}
 
 %-------------------------------------------------------------
 \RequirePackage%
