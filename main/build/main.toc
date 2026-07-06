@@ -166,78 +166,78 @@
 \contentsline {subsection}{\numberline {8.5.2}电偶极子总结}{157}{subsection.1.8.5.2}%
 \contentsline {section}{\numberline {8.6}导体与等势面}{157}{section.1.8.6}%
 \contentsline {section}{\numberline {8.7}电像法}{159}{section.1.8.7}%
-\contentsline {section}{\numberline {8.8}电容与电容器}{162}{section.1.8.8}%
-\contentsline {subsection}{\numberline {8.8.1}定义与计算}{162}{subsection.1.8.8.1}%
-\contentsline {subsection}{\numberline {8.8.2}电容的性质}{164}{subsection.1.8.8.2}%
+\contentsline {section}{\numberline {8.8}电容与电容器}{161}{section.1.8.8}%
+\contentsline {subsection}{\numberline {8.8.1}定义与计算}{161}{subsection.1.8.8.1}%
+\contentsline {subsection}{\numberline {8.8.2}电容的性质}{163}{subsection.1.8.8.2}%
 \contentsline {section}{\numberline {8.9}电介质的极化}{165}{section.1.8.9}%
-\contentsline {subsection}{\numberline {8.9.1}极化的定义}{166}{subsection.1.8.9.1}%
+\contentsline {subsection}{\numberline {8.9.1}极化的定义}{165}{subsection.1.8.9.1}%
 \contentsline {subsection}{\numberline {8.9.2}电介质的高斯定律及其应用}{167}{subsection.1.8.9.2}%
-\contentsline {section}{\numberline {8.10}欧姆定律}{170}{section.1.8.10}%
-\contentsline {subsection}{\numberline {8.10.1}稳恒电流}{170}{subsection.1.8.10.1}%
-\contentsline {subsection}{\numberline {8.10.2}欧姆定律}{171}{subsection.1.8.10.2}%
-\contentsline {section}{\numberline {8.11}电路理论}{172}{section.1.8.11}%
-\contentsline {subsection}{\numberline {8.11.1}基尔霍夫定律}{173}{subsection.1.8.11.1}%
-\contentsline {subsection}{\numberline {8.11.2}一阶电路与复杂电路*}{174}{subsection.1.8.11.2}%
-\contentsline {subsubsection}{一阶电路}{174}{subsubsection*.20}%
-\contentsline {subsubsection}{复杂电路}{176}{subsubsection*.21}%
-\contentsline {section}{\numberline {8.12}磁场}{177}{section.1.8.12}%
-\contentsline {section}{\numberline {8.13}安培定律}{179}{section.1.8.13}%
-\contentsline {section}{\numberline {8.14}磁偶极子}{181}{section.1.8.14}%
-\contentsline {section}{\numberline {8.15}磁介质的磁化}{183}{section.1.8.15}%
-\contentsline {subsection}{\numberline {8.15.1}磁化的定义}{183}{subsection.1.8.15.1}%
-\contentsline {subsection}{\numberline {8.15.2}磁介质的安培定律及其应用}{185}{subsection.1.8.15.2}%
-\contentsline {section}{\numberline {8.16}电磁感应与电感}{187}{section.1.8.16}%
-\contentsline {subsection}{\numberline {8.16.1}法拉第电磁感应定律与动生电动势}{188}{subsection.1.8.16.1}%
-\contentsline {subsection}{\numberline {8.16.2}电感及其性质}{189}{subsection.1.8.16.2}%
-\contentsline {subsection}{\numberline {8.16.3}互感}{192}{subsection.1.8.16.3}%
-\contentsline {section}{\numberline {8.17}LC电路与电路震荡}{194}{section.1.8.17}%
-\contentsline {section}{\numberline {8.18}边界条件}{194}{section.1.8.18}%
-\contentsline {subsection}{\numberline {8.18.1}电场和电流密度边界条件}{194}{subsection.1.8.18.1}%
-\contentsline {subsection}{\numberline {8.18.2}磁场边界条件}{196}{subsection.1.8.18.2}%
-\contentsline {section}{\numberline {8.19}电磁波}{197}{section.1.8.19}%
-\contentsline {subsection}{\numberline {8.19.1}位移电流}{197}{subsection.1.8.19.1}%
-\contentsline {subsection}{\numberline {8.19.2}电磁波的性质}{199}{subsection.1.8.19.2}%
-\contentsline {section}{\numberline {8.20}总结}{203}{section.1.8.20}%
-\contentsline {section}{\numberline {8.21}课后习题：电磁学}{204}{section.1.8.21}%
-\contentsline {chapter}{\numberline {第九章\hspace {.3em}}光学}{210}{chapter.1.9}%
-\contentsline {chapter}{\numberline {第十章\hspace {.3em}}量子物理}{211}{chapter.1.10}%
-\contentsline {section}{\numberline {10.1}一切从光开始}{211}{section.1.10.1}%
-\contentsline {section}{\numberline {10.2}康普顿效应}{214}{section.1.10.2}%
-\contentsline {section}{\numberline {10.3}关于原子稳定性的讨论}{215}{section.1.10.3}%
-\contentsline {section}{\numberline {10.4}不确定性原理}{217}{section.1.10.4}%
-\contentsline {section}{\numberline {10.5}薛定谔方程}{218}{section.1.10.5}%
-\contentsline {subsection}{\numberline {10.5.1}薛定谔方程}{218}{subsection.1.10.5.1}%
-\contentsline {subsection}{\numberline {10.5.2}一维无限深势阱}{221}{subsection.1.10.5.2}%
-\contentsline {subsection}{\numberline {10.5.3}量化能量与检测概率}{222}{subsection.1.10.5.3}%
-\contentsline {subsection}{\numberline {10.5.4}隧穿效应}{224}{subsection.1.10.5.4}%
-\contentsline {section}{\numberline {10.6}氢原子}{225}{section.1.10.6}%
-\contentsline {section}{\numberline {10.7}X射线、激光与能带}{227}{section.1.10.7}%
-\contentsline {subsection}{\numberline {10.7.1}X射线}{227}{subsection.1.10.7.1}%
-\contentsline {subsection}{\numberline {10.7.2}激光}{229}{subsection.1.10.7.2}%
-\contentsline {subsection}{\numberline {10.7.3}能带}{233}{subsection.1.10.7.3}%
-\contentsline {section}{\numberline {10.8}课后习题：量子物理}{235}{section.1.10.8}%
-\contentsline {chapter}{\large 证明部分}{238}{example.1.10.4}%
-\contentsline {chapter}{\numberline {第一章\hspace {.3em}}测量}{239}{chapter.2.1}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}质点运动学与动力学}{240}{chapter.2.2}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}转动动力学}{247}{chapter.2.3}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}流体力学}{255}{chapter.2.4}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}振动与波}{256}{chapter.2.5}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}狭义相对论}{266}{chapter.2.6}%
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}热力学}{275}{chapter.2.7}%
-\contentsline {section}{\numberline {7.1}Part 1}{275}{section.2.7.1}%
-\contentsline {section}{\numberline {7.2}Part 2}{281}{section.2.7.2}%
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}电磁学}{289}{chapter.2.8}%
-\contentsline {chapter}{\numberline {第九章\hspace {.3em}}光学}{302}{chapter.2.9}%
-\contentsline {chapter}{\numberline {第十章\hspace {.3em}}量子物理}{303}{chapter.2.10}%
-\contentsline {chapter}{\large 答案部分}{310}{AMS.59}%
-\contentsline {chapter}{\numberline {第一章\hspace {.3em}}测量}{311}{chapter.3.1}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}质点运动学与动力学基础}{312}{chapter.3.2}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}转动动力学}{317}{chapter.3.3}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}流体力学}{327}{chapter.3.4}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}振动与波}{331}{chapter.3.5}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}狭义相对论}{336}{chapter.3.6}%
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}热力学}{353}{chapter.3.7}%
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}电磁学}{366}{chapter.3.8}%
-\contentsline {chapter}{\numberline {第九章\hspace {.3em}}光学}{384}{chapter.3.9}%
-\contentsline {chapter}{\numberline {第十章\hspace {.3em}}量子物理}{385}{chapter.3.10}%
-\contentsline {chapter}{后记}{391}{chapter*.60}%
+\contentsline {section}{\numberline {8.10}欧姆定律}{169}{section.1.8.10}%
+\contentsline {subsection}{\numberline {8.10.1}稳恒电流}{169}{subsection.1.8.10.1}%
+\contentsline {subsection}{\numberline {8.10.2}欧姆定律}{170}{subsection.1.8.10.2}%
+\contentsline {section}{\numberline {8.11}电路理论}{171}{section.1.8.11}%
+\contentsline {subsection}{\numberline {8.11.1}基尔霍夫定律}{172}{subsection.1.8.11.1}%
+\contentsline {subsection}{\numberline {8.11.2}一阶电路与复杂电路*}{173}{subsection.1.8.11.2}%
+\contentsline {subsubsection}{一阶电路}{173}{subsubsection*.20}%
+\contentsline {subsubsection}{复杂电路}{175}{subsubsection*.21}%
+\contentsline {section}{\numberline {8.12}磁场}{176}{section.1.8.12}%
+\contentsline {section}{\numberline {8.13}安培定律}{178}{section.1.8.13}%
+\contentsline {section}{\numberline {8.14}磁偶极子}{180}{section.1.8.14}%
+\contentsline {section}{\numberline {8.15}磁介质的磁化}{182}{section.1.8.15}%
+\contentsline {subsection}{\numberline {8.15.1}磁化的定义}{182}{subsection.1.8.15.1}%
+\contentsline {subsection}{\numberline {8.15.2}磁介质的安培定律及其应用}{184}{subsection.1.8.15.2}%
+\contentsline {section}{\numberline {8.16}电磁感应与电感}{186}{section.1.8.16}%
+\contentsline {subsection}{\numberline {8.16.1}法拉第电磁感应定律与动生电动势}{187}{subsection.1.8.16.1}%
+\contentsline {subsection}{\numberline {8.16.2}电感及其性质}{188}{subsection.1.8.16.2}%
+\contentsline {subsection}{\numberline {8.16.3}互感}{191}{subsection.1.8.16.3}%
+\contentsline {section}{\numberline {8.17}LC电路与电路震荡}{193}{section.1.8.17}%
+\contentsline {section}{\numberline {8.18}边界条件}{193}{section.1.8.18}%
+\contentsline {subsection}{\numberline {8.18.1}电场和电流密度边界条件}{193}{subsection.1.8.18.1}%
+\contentsline {subsection}{\numberline {8.18.2}磁场边界条件}{195}{subsection.1.8.18.2}%
+\contentsline {section}{\numberline {8.19}电磁波}{196}{section.1.8.19}%
+\contentsline {subsection}{\numberline {8.19.1}位移电流}{196}{subsection.1.8.19.1}%
+\contentsline {subsection}{\numberline {8.19.2}电磁波的性质}{198}{subsection.1.8.19.2}%
+\contentsline {section}{\numberline {8.20}总结}{202}{section.1.8.20}%
+\contentsline {section}{\numberline {8.21}课后习题：电磁学}{203}{section.1.8.21}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}光学}{209}{chapter.1.9}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}量子物理}{210}{chapter.1.10}%
+\contentsline {section}{\numberline {10.1}一切从光开始}{210}{section.1.10.1}%
+\contentsline {section}{\numberline {10.2}康普顿效应}{213}{section.1.10.2}%
+\contentsline {section}{\numberline {10.3}关于原子稳定性的讨论}{214}{section.1.10.3}%
+\contentsline {section}{\numberline {10.4}不确定性原理}{216}{section.1.10.4}%
+\contentsline {section}{\numberline {10.5}薛定谔方程}{217}{section.1.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}薛定谔方程}{217}{subsection.1.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}一维无限深势阱}{220}{subsection.1.10.5.2}%
+\contentsline {subsection}{\numberline {10.5.3}量化能量与检测概率}{221}{subsection.1.10.5.3}%
+\contentsline {subsection}{\numberline {10.5.4}隧穿效应}{223}{subsection.1.10.5.4}%
+\contentsline {section}{\numberline {10.6}氢原子}{224}{section.1.10.6}%
+\contentsline {section}{\numberline {10.7}X射线、激光与能带}{226}{section.1.10.7}%
+\contentsline {subsection}{\numberline {10.7.1}X射线}{226}{subsection.1.10.7.1}%
+\contentsline {subsection}{\numberline {10.7.2}激光}{228}{subsection.1.10.7.2}%
+\contentsline {subsection}{\numberline {10.7.3}能带}{232}{subsection.1.10.7.3}%
+\contentsline {section}{\numberline {10.8}课后习题：量子物理}{234}{section.1.10.8}%
+\contentsline {chapter}{\large 证明部分}{237}{example.1.10.4}%
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}测量}{238}{chapter.2.1}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}质点运动学与动力学}{239}{chapter.2.2}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}转动动力学}{246}{chapter.2.3}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}流体力学}{254}{chapter.2.4}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}振动与波}{255}{chapter.2.5}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}狭义相对论}{265}{chapter.2.6}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}热力学}{274}{chapter.2.7}%
+\contentsline {section}{\numberline {7.1}Part 1}{274}{section.2.7.1}%
+\contentsline {section}{\numberline {7.2}Part 2}{280}{section.2.7.2}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}电磁学}{288}{chapter.2.8}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}光学}{301}{chapter.2.9}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}量子物理}{302}{chapter.2.10}%
+\contentsline {chapter}{\large 答案部分}{309}{AMS.59}%
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}测量}{310}{chapter.3.1}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}质点运动学与动力学基础}{311}{chapter.3.2}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}转动动力学}{316}{chapter.3.3}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}流体力学}{326}{chapter.3.4}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}振动与波}{330}{chapter.3.5}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}狭义相对论}{335}{chapter.3.6}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}热力学}{352}{chapter.3.7}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}电磁学}{365}{chapter.3.8}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}光学}{383}{chapter.3.9}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}量子物理}{384}{chapter.3.10}%
+\contentsline {chapter}{后记}{390}{chapter*.60}%

@@ -399,8 +399,8 @@
     
     根据高斯定理，取一个厚度无穷小，底面面积 \(dS\) 的扁圆柱盒，这块微元上的电荷量由内外区域的电场强度共同决定（显然金属球内部 \(E_{in}=0\) ）
     \begin{align}
-        (dS \rho_1)/&\epsilon_0 = \vec{dS}\cdot (\vec{E}_{out}-\vec{E}_{in}) \implies \rho_1 = \epsilon_0 E_{out,n} \\
-        E_{out,n}&=-\frac{q}{4\pi \epsilon_0}[\frac{R}{d}\frac{R-\frac{R^2}{d} cos\theta}{(R^2+(\frac{R^2}{d})^2-2(R^3/d) cos\theta)^{3/2}}+\frac{d cos\theta - R}{(R^2+d^2-2Rd cos\theta)^{3/2}}]\\
+        (dS \rho_1)/&\epsilon_0 = \vec{dS}\cdot (\vec{E}_{out}-\vec{E}_{in}) \implies \rho_1 = \epsilon_0 E_{out}^n \\
+        E_{out}^n&=-\frac{q}{4\pi \epsilon_0}[\frac{R}{d}\frac{R-\frac{R^2}{d} cos\theta}{(R^2+(\frac{R^2}{d})^2-2(R^3/d) cos\theta)^{3/2}}+\frac{d cos\theta - R}{(R^2+d^2-2Rd cos\theta)^{3/2}}]\\
         &=-\frac{q}{4\pi \epsilon_0 R}\frac{d^2-R^2}{(d^2+R^2-2Rdcos\theta)^{3/2}}
     \end{align}
     或许用一个高斯定理求出 \(\rho_1 + \rho_2\) 更符合物理实际一点，但便于理解电中性的处理不小心拆开了。
